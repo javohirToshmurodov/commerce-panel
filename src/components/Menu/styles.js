@@ -10,13 +10,16 @@ export const menuStyles = makeStyles({
       borderRadius: "0 30px 0 0",
       paddingTop: "54px",
       position: "sticky",
-      top: "70px"
+      top: "10px",
+      left: "0px",
    },
    body: {
       display: "flex",
       flexDirection: "column",
       alignItems: "flex-end",
-      justifyContent: "center"
+      justifyContent: "center",
+      position: "sticky",
+      top: "30px"
    },
    menuLink: {
    },

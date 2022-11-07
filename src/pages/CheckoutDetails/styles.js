@@ -7,7 +7,7 @@ export const detailStyles = makeStyles({
    root: {
       flex: 1,
       boxSizing: 'border-box',
-      padding: "20px 60px 16px 20px",
+      padding: "20px 0px 16px 20px",
    },
    container: {
       backgroundColor: mainBackground,
@@ -15,6 +15,7 @@ export const detailStyles = makeStyles({
       borderRadius: "6px",
       padding: "20px 28px",
       boxSizing: "border-box",
+      width: "1100px"
    },
    wrapper: {
       backgroundColor: textWhite,
@@ -25,6 +26,7 @@ export const detailStyles = makeStyles({
    },
    slider: {
       borderRadius: "16px",
+      overflow: "hidden",
       backgroundColor: mainBackground,
       width: "48%",
       padding: "20px",

@@ -78,7 +78,7 @@ const CheckoutDetails = () => {
                            <img src={iconBuy2} alt="" />
                            <TextWhite17600 text={'Перейти в корзину'} />
                            <Box className={classes.info}>
-                              1
+                              {cart.length}
                            </Box>
                         </Box>
                      ) : (
@@ -115,6 +115,12 @@ const CheckoutDetails = () => {
                         <Box>
                            <img className={classes.image} src={details.image} alt="" />
 
+                        </Box>
+                        <Box>
+                           <img className={classes.image} src={details.image} alt="" />
+                        </Box>
+                        <Box>
+                           <img className={classes.image} src={details.image} alt="" />
                         </Box>
                         <Box>
                            <img className={classes.image} src={details.image} alt="" />

@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Gilroy-Regular', sans-serif;
 }
 /* gilroy */
@@ -48,6 +49,7 @@ a{
 }
 .carousel .control-dots .dot{
   background-color: #BBC2D0 !important;
+  margin: 0 6px !important;
 }
 .carousel .control-dots .dot.selected{
   background-color: #3D639D !important;

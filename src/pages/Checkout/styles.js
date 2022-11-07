@@ -5,14 +5,15 @@ export const checkoutStyles = makeStyles({
    root: {
       flex: 1,
       boxSizing: 'border-box',
-      padding: "20px 60px 16px 20px",
+      padding: "20px 0px 16px 20px",
    },
    container: {
       backgroundColor: mainBackground,
       minHeight: `calc(100vh - 105px)`,
       borderRadius: "6px",
       padding: "20px 28px",
-      boxSizing: "border-box"
+      boxSizing: "border-box",
+      width: "1100px"
    },
    input: {
       display: "flex",
@@ -31,7 +32,7 @@ export const checkoutStyles = makeStyles({
       display: 'flex',
       justifyContent: "flex-start",
       flexWrap: "wrap",
-      gap: "20px",
+      gap: "25px",
       marginTop: "20px"
    },
    card: {
